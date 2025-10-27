@@ -68,7 +68,6 @@ def topNInGenre(genre: str, n: int = 4) -> List[Tuple[str, float]]:
     return matches[:n]
 
 if __name__ == "__main__":
-    # Pruebas manuales (sin unittest). Se imprimen varios ejemplos.
     ejemplos = [
         "Action",
         "Drama",
@@ -102,5 +101,6 @@ if __name__ == "__main__":
  - Convierte imdb_rating a float (si falta o es inválido se descarta ese registro).
  - Ordena los matches por rating descendente y nombre ascendente, y devuelve los N primeros.# 
  - bestInGenre usa topNInGenre(genre, 1) para devolver solo el nombre de la mejor serie.
- - En el bloque __main__ se imprimen ejemplos y se genera dinámicamente el "Sample Explanation".
+ - En el bloque __main__ se imprimen ejemplos y se genera dinámicamente el "Sample Explanation" detallado en la documentacion.
+
 """
