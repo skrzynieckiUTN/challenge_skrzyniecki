@@ -7,9 +7,9 @@
 //
 // AUTENTICACIÓN:
 // Aunque la API es gratuita, requiere un token de API para su uso.
-// Obtén tu token gratuito en: https://huggingface.co/settings/tokens
+// Se puede obtener un token gratuito en: https://huggingface.co/settings/tokens
 // 
-// Configura la variable de entorno 
+// Explicacion de como configurar la variable de entorno 
 // 
 // PowerShell (opción con comillas escapadas):
 //   $env:HUGGINGFACE_API_TOKEN = 'tu_token_aqui'
@@ -467,7 +467,6 @@ DECISIONES CLAVE DE DISEÑO:
    - Clara separación de responsabilidades con funciones enfocadas
    - Structs para request/response de API proporcionan seguridad de tipos
    - Constantes para configuración facilitan el ajuste
-   - Los comentarios explican "por qué" no solo "qué"
    - Funciones helper (getMaxLength, getMinLength) encapsulan lógica
 
 10. EXTENSIBILIDAD:
