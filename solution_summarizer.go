@@ -59,7 +59,7 @@ const (
 	// Endpoint de la API de Inferencia de HuggingFace para el modelo de resumen BART
 	// El modelo facebook/bart-large-cnn está optimizado para resumir noticias y artículos
 	// Página del modelo: https://huggingface.co/facebook/bart-large-cnn
-	apiURL = "https://api-inference.huggingface.co/models/facebook/bart-large-cnn"
+	apiURL = "https://router.huggingface.co/hf-inference/models/facebook/bart-large-cnn"
 
 	// Longitud máxima de entrada para evitar límites de la API
 	maxInputLength = 1024
